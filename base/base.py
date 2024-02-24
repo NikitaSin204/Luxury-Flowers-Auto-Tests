@@ -26,7 +26,7 @@ class Base():
         now_date = datetime.datetime.utcnow().strftime('%Y.%m.%d-%H.%M.%S')
         name_screenshot = 'screenshot ' + now_date + '.png'
         self.driver.save_screenshot(
-            'C:\\Users\\Никита\\PycharmProjects\\pythonLessons\\luxuryFlowersTests\\screen\\' + name_screenshot)
+            './screen/' + name_screenshot)
 
     """Method assert url (Метод сравнения ссылки)"""
 
