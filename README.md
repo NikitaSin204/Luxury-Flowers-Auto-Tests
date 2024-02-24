@@ -15,4 +15,4 @@ pip install allure-pytest
 python -m pytest -s -v
 
 #Запуск теста test_buy_pr_no_auth_filters
-python -m pytest -s -v C:\Users\Никита\PycharmProjects\pythonLessons\luxuryFlowersTests\tests\test_buy_pr_no_auth_filters.py
+python -m pytest -s -v 
